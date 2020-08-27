@@ -36,8 +36,21 @@
     "embeddableLaunchScript": false,
     "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "otherModules": [],
-    "blueprints": []
+    "otherModules": [
+      {
+        "name": "generator-jhipster-jooq",
+        "version": "0.0.0"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-jooq",
+        "version": "0.0.0"
+      }
+    ]
   },
-  "entities": []
+  "entities": [],
+  "generator-jhipster-jooq": {
+    "codegen": "liquibase"
+  }
 }
