@@ -278,6 +278,7 @@ dependencies {
     testImplementation "com.h2database:h2"
     liquibaseRuntime "com.h2database:h2"
     jooqGenerator "org.jooq:jooq-meta-extensions:3.13.4"
+    jooqGenerator files("src/main/resources")
     //jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
 }
 
